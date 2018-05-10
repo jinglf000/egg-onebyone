@@ -88,21 +88,21 @@
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "E:\\github\\egg-onebyone\\node_modules\\egg-session\\config\\locales",
-        "E:\\github\\egg-onebyone\\node_modules\\egg-security\\config\\locales",
-        "E:\\github\\egg-onebyone\\node_modules\\egg-jsonp\\config\\locales",
-        "E:\\github\\egg-onebyone\\node_modules\\egg-onerror\\config\\locales",
-        "E:\\github\\egg-onebyone\\node_modules\\egg-i18n\\config\\locales",
-        "E:\\github\\egg-onebyone\\node_modules\\egg-watcher\\config\\locales",
-        "E:\\github\\egg-onebyone\\node_modules\\egg-multipart\\config\\locales",
-        "E:\\github\\egg-onebyone\\node_modules\\egg-development\\config\\locales",
-        "E:\\github\\egg-onebyone\\node_modules\\egg-schedule\\config\\locales",
-        "E:\\github\\egg-onebyone\\node_modules\\egg-logrotator\\config\\locales",
-        "E:\\github\\egg-onebyone\\node_modules\\egg-static\\config\\locales",
-        "E:\\github\\egg-onebyone\\node_modules\\egg-view\\config\\locales",
-        "E:\\github\\egg-onebyone\\node_modules\\egg-view-nunjucks\\config\\locales",
-        "E:\\github\\egg-onebyone\\node_modules\\egg\\config\\locales",
-        "E:\\github\\egg-onebyone\\config\\locales"
+        "E:\\egg-onebyone\\node_modules\\egg-session\\config\\locales",
+        "E:\\egg-onebyone\\node_modules\\egg-security\\config\\locales",
+        "E:\\egg-onebyone\\node_modules\\egg-jsonp\\config\\locales",
+        "E:\\egg-onebyone\\node_modules\\egg-onerror\\config\\locales",
+        "E:\\egg-onebyone\\node_modules\\egg-i18n\\config\\locales",
+        "E:\\egg-onebyone\\node_modules\\egg-watcher\\config\\locales",
+        "E:\\egg-onebyone\\node_modules\\egg-multipart\\config\\locales",
+        "E:\\egg-onebyone\\node_modules\\egg-development\\config\\locales",
+        "E:\\egg-onebyone\\node_modules\\egg-schedule\\config\\locales",
+        "E:\\egg-onebyone\\node_modules\\egg-logrotator\\config\\locales",
+        "E:\\egg-onebyone\\node_modules\\egg-static\\config\\locales",
+        "E:\\egg-onebyone\\node_modules\\egg-view\\config\\locales",
+        "E:\\egg-onebyone\\node_modules\\egg-view-nunjucks\\config\\locales",
+        "E:\\egg-onebyone\\node_modules\\egg\\config\\locales",
+        "E:\\egg-onebyone\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -112,8 +112,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "E:\\github\\egg-onebyone\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "E:\\github\\egg-onebyone\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "E:\\egg-onebyone\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "E:\\egg-onebyone\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "multipart": {
@@ -137,7 +137,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "E:\\github\\egg-onebyone\\logs\\egg-onebyone\\egg-schedule.log"
+        "file": "E:\\egg-onebyone\\logs\\egg-onebyone\\egg-schedule.log"
       }
     },
     "logrotator": {
@@ -151,7 +151,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "E:\\github\\egg-onebyone\\app\\public",
+      "dir": "E:\\egg-onebyone\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -160,7 +160,7 @@
     },
     "view": {
       "root": [
-        "E:\\github\\egg-onebyone\\app\\view"
+        "E:\\egg-onebyone\\app\\view"
       ],
       "cache": false,
       "defaultExtension": ".html",
@@ -202,9 +202,9 @@
         "egg-bin": "^4.7.0"
       }
     },
-    "baseDir": "E:\\github\\egg-onebyone",
-    "HOME": "C:\\Users\\Administrator",
-    "rundir": "E:\\github\\egg-onebyone\\run",
+    "baseDir": "E:\\egg-onebyone",
+    "HOME": "C:\\Users\\jingl",
+    "rundir": "E:\\egg-onebyone\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -235,7 +235,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "E:\\github\\egg-onebyone\\logs\\egg-onebyone",
+      "dir": "E:\\egg-onebyone\\logs\\egg-onebyone",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -325,8 +325,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\github\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\github\\egg-onebyone\\node_modules\\egg-session",
+      "from": "E:\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\egg-onebyone\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -338,8 +338,8 @@
         "session"
       ],
       "env": [],
-      "from": "E:\\github\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\github\\egg-onebyone\\node_modules\\egg-security",
+      "from": "E:\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\egg-onebyone\\node_modules\\egg-security",
       "version": "2.2.2"
     },
     "jsonp": {
@@ -351,8 +351,8 @@
         "security"
       ],
       "env": [],
-      "from": "E:\\github\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\github\\egg-onebyone\\node_modules\\egg-jsonp",
+      "from": "E:\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\egg-onebyone\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -364,8 +364,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "E:\\github\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\github\\egg-onebyone\\node_modules\\egg-onerror",
+      "from": "E:\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\egg-onebyone\\node_modules\\egg-onerror",
       "version": "2.0.0"
     },
     "i18n": {
@@ -375,8 +375,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\github\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\github\\egg-onebyone\\node_modules\\egg-i18n",
+      "from": "E:\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\egg-onebyone\\node_modules\\egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -386,8 +386,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\github\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\github\\egg-onebyone\\node_modules\\egg-watcher",
+      "from": "E:\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\egg-onebyone\\node_modules\\egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -397,8 +397,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\github\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\github\\egg-onebyone\\node_modules\\egg-multipart",
+      "from": "E:\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\egg-onebyone\\node_modules\\egg-multipart",
       "version": "2.0.0"
     },
     "development": {
@@ -412,8 +412,8 @@
       "env": [
         "local"
       ],
-      "from": "E:\\github\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\github\\egg-onebyone\\node_modules\\egg-development",
+      "from": "E:\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\egg-onebyone\\node_modules\\egg-development",
       "version": "2.2.0"
     },
     "schedule": {
@@ -423,8 +423,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\github\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\github\\egg-onebyone\\node_modules\\egg-schedule",
+      "from": "E:\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\egg-onebyone\\node_modules\\egg-schedule",
       "version": "3.3.0"
     },
     "logrotator": {
@@ -436,8 +436,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\github\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\github\\egg-onebyone\\node_modules\\egg-logrotator",
+      "from": "E:\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\egg-onebyone\\node_modules\\egg-logrotator",
       "version": "3.0.3"
     },
     "static": {
@@ -447,8 +447,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\github\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\github\\egg-onebyone\\node_modules\\egg-static",
+      "from": "E:\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\egg-onebyone\\node_modules\\egg-static",
       "version": "2.1.1"
     },
     "view": {
@@ -458,8 +458,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\github\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\github\\egg-onebyone\\node_modules\\egg-view",
+      "from": "E:\\egg-onebyone\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\egg-onebyone\\node_modules\\egg-view",
       "version": "2.1.0"
     },
     "nunjucks": {
@@ -472,8 +472,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\github\\egg-onebyone\\config\\plugin.js",
-      "path": "E:\\github\\egg-onebyone\\node_modules\\egg-view-nunjucks",
+      "from": "E:\\egg-onebyone\\config\\plugin.js",
+      "path": "E:\\egg-onebyone\\node_modules\\egg-view-nunjucks",
       "version": "2.2.0"
     }
   }
