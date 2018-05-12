@@ -162,7 +162,8 @@
     "main": "E:\\egg-onebyone\\node_modules\\egg\\config\\config.default.js",
     "scripts": {
       "test": "E:\\egg-onebyone\\node_modules\\egg\\config\\config.default.js",
-      "dev": "E:\\egg-onebyone\\node_modules\\egg\\config\\config.default.js"
+      "dev": "E:\\egg-onebyone\\node_modules\\egg\\config\\config.default.js",
+      "debug": "E:\\egg-onebyone\\node_modules\\egg\\config\\config.default.js"
     },
     "author": "E:\\egg-onebyone\\node_modules\\egg\\config\\config.default.js",
     "license": "E:\\egg-onebyone\\node_modules\\egg\\config\\config.default.js",
