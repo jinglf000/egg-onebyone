@@ -14,3 +14,4 @@ egg-onebyone 学习
   * 刚开始的时候写的时候，代码并没有明显的代码关联语句，而在使用的时候有关联。这时候要是有个代码高亮就好了，或者就记住它。
   * egg-core/loader/minxin/controller.js .... 加载器
   * 内容被加载到了 context 上下文中
+  * ceshi git
