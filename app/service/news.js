@@ -2,9 +2,6 @@ const Service = require('egg').Service;
 
 class NewsService extends Service {
   async list(page = 1) {
-<<<<<<< HEAD
-
-=======
     // read config
     const {
       serverUrl,
@@ -33,7 +30,6 @@ class NewsService extends Service {
       })
     );
     return newsList.map(res => res.data);
->>>>>>> 080afdb80d9983edc4ce2d314d1bc6f4bb80ab7f
   }
 }
 
