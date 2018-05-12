@@ -9,6 +9,14 @@
     "cache": "E:\\egg-onebyone\\node_modules\\egg-view\\config\\config.local.js",
     "defaultExtension": "E:\\egg-onebyone\\node_modules\\egg-view\\config\\config.default.js"
   },
+  "news": {
+    "pageSize": "E:\\github\\egg-onebyone\\config\\config.default.js",
+    "serverUrl": "E:\\github\\egg-onebyone\\config\\config.default.js"
+  },
+  "middleware": "E:\\github\\egg-onebyone\\config\\config.default.js",
+  "robot": {
+    "ua": "E:\\github\\egg-onebyone\\config\\config.default.js"
+  },
   "session": {
     "maxAge": "E:\\egg-onebyone\\node_modules\\egg-session\\config\\config.default.js",
     "key": "E:\\egg-onebyone\\node_modules\\egg-session\\config\\config.default.js",
@@ -159,8 +167,14 @@
     "author": "E:\\egg-onebyone\\node_modules\\egg\\config\\config.default.js",
     "license": "E:\\egg-onebyone\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
+<<<<<<< HEAD
       "egg": "E:\\egg-onebyone\\node_modules\\egg\\config\\config.default.js",
       "egg-view-nunjucks": "E:\\egg-onebyone\\node_modules\\egg\\config\\config.default.js"
+=======
+      "egg": "E:\\github\\egg-onebyone\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "E:\\github\\egg-onebyone\\node_modules\\egg\\config\\config.default.js",
+      "moment": "E:\\github\\egg-onebyone\\node_modules\\egg\\config\\config.default.js"
+>>>>>>> 080afdb80d9983edc4ce2d314d1bc6f4bb80ab7f
     },
     "devDependencies": {
       "egg-bin": "E:\\egg-onebyone\\node_modules\\egg\\config\\config.default.js"
