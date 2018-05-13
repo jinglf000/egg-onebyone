@@ -198,7 +198,9 @@
       "dependencies": {
         "egg": "^2.8.1",
         "egg-view-nunjucks": "^2.2.0",
-        "moment": "^2.22.1"
+        "koa-is-json": "^1.0.0",
+        "moment": "^2.22.1",
+        "zlib": "^1.0.5"
       },
       "devDependencies": {
         "egg-bin": "^4.7.0"
@@ -308,7 +310,8 @@
       "serverUrl": "https://hacker-news.firebaseio.com/v0"
     },
     "middleware": [
-      "robot"
+      "robot",
+      "gzip"
     ],
     "robot": {
       "ua": [

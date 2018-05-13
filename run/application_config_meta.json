@@ -170,7 +170,9 @@
     "dependencies": {
       "egg": "E:\\egg-onebyone\\node_modules\\egg\\config\\config.default.js",
       "egg-view-nunjucks": "E:\\egg-onebyone\\node_modules\\egg\\config\\config.default.js",
-      "moment": "E:\\egg-onebyone\\node_modules\\egg\\config\\config.default.js"
+      "koa-is-json": "E:\\egg-onebyone\\node_modules\\egg\\config\\config.default.js",
+      "moment": "E:\\egg-onebyone\\node_modules\\egg\\config\\config.default.js",
+      "zlib": "E:\\egg-onebyone\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
       "egg-bin": "E:\\egg-onebyone\\node_modules\\egg\\config\\config.default.js"
