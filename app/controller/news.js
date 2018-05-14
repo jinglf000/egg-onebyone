@@ -10,11 +10,11 @@ class NewsController extends Controller {
         title: 'dss'
       },
       {
-        url: '/news/2',
         item: 'goo',
+        url: '/news/2',
         title: 'we can find it'
       }
-    ]
+    ];
 
     await this.ctx.render('news/list.tpl', {
       list: newsList
